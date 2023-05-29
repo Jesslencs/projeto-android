@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+:root{
+
+   --font-padrao: arial,verdana,helvetica,sans-serif;
+   --font-destaque:'Bebas Neue', sans-serif;
+}
+
+
+body{
+
+    background-color: #33c07c;
+    font-family: var(--font-padrao);
+
+    min-width: 320px;
+    max-width: 800px;
+    margin:auto
+    
+    
+
+   
+    }
+    img{
+        width: 100%;
+    }
+    
+
+header{
+
+    background-color: rgb(81, 154, 81);
+    padding-top: 40px;
+    margin: 10px;
+    border-radius: 20px ;
+    margin: auto;
+    min-height: 150px;
+    
+
+    
+    
+
+}
+h1.cabeçalho{
+    color: white;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.648);
+    
+
+
+    
+
+
+}
+p.textinicial{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+
+
+}
+nav > a {
+    
+    color: rgba(255, 255, 255, 0.382);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+    
+     
+}
+
+nav{
+
+    background-color: rgba(81, 154, 81) ;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.437);
+
+}
+nav > a:hover{
+    background-color:rgb(73, 211, 73);
+    color: rgb(37, 110, 37);
+    
+
+}
+
+
+
+
+
+
+main{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.67); 
+
+
+   
+
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin:auto
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+    .listaleft{
+        list-style: none;
+
+    }
+    
+    .listaright{
+        list-style: none;
+    }
+   main  p{
+        text-align: justify;
+        text-indent: 30px;
+        margin: 15px 0px;
+        line-height: 2em;
+        font-size: 1em;
+
+
+    }
+
+    main strong{
+        color:rgb(22, 107, 22);
+        font-weight: bold;
+        
+        padding: 2px 6px;
+
+        
+
+
+    }
+    section{
+        background-color:rgb(156, 156, 231);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px ;
+        margin: auto;
+        
+
+
+    }
+    h2.extra{
+        background-color: rgb(10, 160, 10);
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px ;
+        margin: auto;
+        
+    }
+
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 0.8;
+        padding: 5px ;
+
+
+
+        
+    }
+    footer > p > a{
+        color: rgb(248, 204, 204);
+        font-weight:bolder ;
+        text-decoration: none;
+
+
+    }
+    footer a:hover{
+        text-decoration: underline;
+        color: rgb(173, 210, 173);
+    }
+
+    h1{
+
+        font-family: 'Diplomata SC', cursive;
+        color: rgb(10, 182, 125);
+    }
+    h3{
+        font-family: 'Fugaz One', cursive;
+        color: rgb(19, 137, 19);
+    }
+    h2{
+        font-family: 'Fugaz One', cursive;
+        color: rgb(24, 116, 24);
+        font-size: 1em;
+        background-image: linear-gradient( to right, rgb(75, 195, 75), transparent);
+
+    }
+   *{
+
+     margin: 0px;
+     padding: 0px;
+   }
+   main a {
+    text-decoration: none;
+    font-weight: bold;
+    color:rgba(6, 34, 3, 0.701);
+    background-color: rgb(128, 190, 128);
+    
+    padding: 2px 6px;
+    
+
+   }
+   main a:hover{
+    text-decoration: underline;
+    color: rgb(73, 155, 73);
+
+   }
+
+    
+ 
+
+aside{
+
+    background-color: rgb(151, 199, 151);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.251);
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+
+    list-style-position: inside;
+    columns: 2;
+}
+aside > h3{
+    background-color: rgba(25, 115, 25, 0.66);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+div.video{
+    background-color:rgb(17, 96, 17) ;
+    margin: 0px -20px  30px  -20px ;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+    
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left:5%;
+    width: 90%;
+    height: 90%;
+
+    
+
+
+}
